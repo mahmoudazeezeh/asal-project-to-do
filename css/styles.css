@@ -542,11 +542,30 @@ body {
       justify-content: center;
       gap: 10px;
 
-      
+      i {
+        color: var(--primary-color);
+      }
     }
 
-   
+    p {
+      color: #666;
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 25px;
+    }
 
+    input {
+      width: 100%;
+      padding: 15px;
+      border: 2px solid var(--border-color);
+      border-radius: var(--border-radius);
+      font-size: 16px;
+      outline: none;
+      transition: var(--transition);
+      margin-bottom: 20px;
+
+     
+    }
 
   
 
