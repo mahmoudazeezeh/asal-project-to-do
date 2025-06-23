@@ -99,7 +99,10 @@ body {
             background: var(--bold-primary-color);
           }
 
-         
+          i {
+            color: white;
+            font-size: 18px;
+          }
         }
 
      
