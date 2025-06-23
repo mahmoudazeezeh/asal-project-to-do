@@ -237,7 +237,7 @@ body {
     }
 
 
-
+    
 .Tasks {
       background: white;
       padding: 30px;
@@ -421,7 +421,15 @@ body {
           box-shadow: var(--shadow-hover);
         }
 
-       
+        &.disabled {
+          opacity: 0.5;
+          cursor: not-allowed;
+          pointer-events: none;
+        }
+
+        i {
+          font-size: 16px;
+        }
       }
     }
   }
