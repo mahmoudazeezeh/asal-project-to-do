@@ -415,7 +415,11 @@ body {
         align-items: center;
         gap: 8px;
 
-      
+        &:hover {
+          background: var(--tin-red-color);
+          transform: translateY(-3px);
+          box-shadow: var(--shadow-hover);
+        }
 
        
       }
