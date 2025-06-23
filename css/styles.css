@@ -452,7 +452,14 @@ body {
     transform: translateX(0);
   }
 
- 
+  &.success-alert {
+    background: linear-gradient(135deg, var(--success-color), #20c997);
+  }
+
+  &.error-alert {
+    background: linear-gradient(135deg, var(--red-color), #dc3545);
+  }
+
   
     
   }
