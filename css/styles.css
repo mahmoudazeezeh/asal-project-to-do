@@ -69,7 +69,21 @@ body {
       }
     }
 
-  
+    form {
+      background: white;
+      padding: 30px;
+      border-radius: var(--border-radius);
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+    
+
+    
+
+     
+    }
   }
 }
 
