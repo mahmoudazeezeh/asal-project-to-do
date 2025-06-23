@@ -235,7 +235,8 @@ body {
         }
       }
     }
-.Tasks {
+
+    .Tasks {
       background: white;
       padding: 30px;
       border-radius: var(--border-radius);
@@ -629,5 +630,96 @@ body {
         }
       }
     }
+  }
+}
+
+/* Delete modal */
+.deleteAction {
+  .popUp {
+    .delete-icon {
+      margin-bottom: 20px;
+
+      i {
+        font-size: 4rem;
+        color: var(--warning-color);
+        animation: pulse 2s infinite;
+
+        @keyframes pulse {
+          0% {
+            transform: scale(1);
+          }
+          50% {
+            transform: scale(1.1);
+          }
+          100% {
+            transform: scale(1);
+          }
+        }
+      }
+    }
+
+    .actions {
+      button:first-of-type {
+        background: #6c757d;
+        color: white;
+
+        &:hover {
+          background: #5a6268;
+        }
+      }
+
+      button:nth-of-type(2) {
+        background: var(--red-color);
+        color: white;
+
+        &:hover {
+          background: #dc3545;
+        }
+      }
+    }
+  }
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  .todoForm .container form {
+    padding: 20px;
+  }
+
+  .todoList .container .pagination {
+    flex-direction: column;
+    gap: 10px;
+
+    li {
+      width: 100%;
+      justify-content: center;
+    }
+  }
+
+  .todoList .container .DeleteActions {
+    flex-direction: column;
+    gap: 10px;
+
+    li {
+      width: 100%;
+      justify-content: center;
+    }
+  }
+
+  .alert {
+    right: 10px;
+    left: 10px;
+    min-width: auto;
+    transform: translateY(-100px);
+
+    &.show {
+      transform: translateY(0);
+    }
+  }
+
+  .renameTask .popUp,
+  .deleteAction .popUp {
+    width: 95%;
+    padding: 30px 20px 20px;
   }
 }
