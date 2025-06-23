@@ -235,9 +235,6 @@ body {
         }
       }
     }
-
-
-    
 .Tasks {
       background: white;
       padding: 30px;
@@ -435,6 +432,31 @@ body {
   }
 }
 
+/* Alerts */
+.alert {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 20px;
+  border-radius: var(--border-radius);
+  color: white;
+  font-weight: bold;
+  transform: translateX(400px);
+  transition: var(--transition);
+  z-index: 1000;
+  box-shadow: var(--shadow-hover);
+  min-width: 350px;
+  max-width: 500px;
+
+  &.show {
+    transform: translateX(0);
+  }
+
+ 
+  
+    
+  }
+}
 
 
 
