@@ -86,7 +86,19 @@ body {
         overflow: hidden;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
-      
+        > div {
+          height: 100%;
+          padding: 15px;
+          background: var(--primary-color);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          transition: var(--transition);
+
+        
+
+         
+        }
 
      
       }
