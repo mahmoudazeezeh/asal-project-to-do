@@ -168,7 +168,9 @@ body {
           transform: translateY(0);
         }
 
-       
+        i {
+          font-size: 18px;
+        }
       }
     }
   }
