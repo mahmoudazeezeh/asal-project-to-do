@@ -158,7 +158,11 @@ body {
         justify-content: center;
         gap: 10px;
 
-       
+        &:hover {
+          background: #218838;
+          transform: translateY(-2px);
+          box-shadow: var(--shadow-hover);
+        }
 
 
        
