@@ -11,7 +11,14 @@
   content: "✏️";
 }
 
+.fa-trash:before {
+  content: "🗑️";
+}
 
+.fa-check-circle:before {
+  content: "✅";
+}
 
-
-
+.fa-exclamation-triangle:before {
+  content: "⚠️";
+}
