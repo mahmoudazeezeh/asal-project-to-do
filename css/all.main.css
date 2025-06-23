@@ -7,7 +7,9 @@
   content: "📚";
 }
 
-
+.fa-pencil:before {
+  content: "✏️";
+}
 
 
 
