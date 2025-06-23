@@ -11,7 +11,11 @@
   content: "✏️";
 }
 
+.fa-trash:before {
+  content: "🗑️";
+}
 
-
-
+.fa-check-circle:before {
+  content: "✅";
+}
 
