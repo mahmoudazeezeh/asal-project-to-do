@@ -586,7 +586,20 @@ body {
       gap: 15px;
       justify-content: center;
 
-     
+      button {
+        padding: 12px 25px;
+        border: none;
+        border-radius: var(--border-radius);
+        cursor: pointer;
+        font-weight: bold;
+        transition: var(--transition);
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 14px;
+
+       
+      }
     }
   }
 }
