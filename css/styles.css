@@ -164,6 +164,9 @@ body {
           box-shadow: var(--shadow-hover);
         }
 
+        &:active {
+          transform: translateY(0);
+        }
 
        
       }
