@@ -235,3 +235,139 @@ body {
         }
       }
     }
+
+
+
+.Tasks {
+      background: white;
+      padding: 30px;
+      border-radius: var(--border-radius);
+      box-shadow: var(--shadow);
+      min-height: 400px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-height: 600px;
+      overflow-y: auto;
+
+      &::-webkit-scrollbar {
+        width: 8px;
+      }
+
+      &::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 4px;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background: var(--primary-color);
+        border-radius: 4px;
+
+        &:hover {
+          background: var(--bold-primary-color);
+        }
+      }
+
+      .task {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        border: 2px solid var(--border-color);
+        border-radius: var(--border-radius);
+        transition: var(--transition);
+        background: white;
+
+        &:hover {
+          transform: translateY(-2px);
+          box-shadow: var(--shadow-hover);
+          border-color: var(--primary-color);
+        }
+
+        &.done {
+          background: #f8f9fa;
+          opacity: 0.7;
+
+          .description {
+            text-decoration: line-through;
+            color: #6c757d;
+          }
+
+          .task-checkbox {
+            color: var(--success-color);
+          }
+        }
+
+        .task-content {
+          display: flex;
+          align-items: center;
+          gap: 15px;
+          flex: 1;
+
+          .task-checkbox {
+            font-size: 20px;
+            color: var(--border-color);
+            cursor: pointer;
+            transition: var(--transition);
+
+            &:hover {
+              color: var(--success-color);
+              transform: scale(1.1);
+            }
+          }
+
+          .description {
+            flex: 1;
+            text-align: left;
+            font-size: 16px;
+            font-weight: 500;
+            color: var(--dark-color);
+            line-height: 1.5;
+          }
+        }
+
+        .actions {
+          display: flex;
+          gap: 10px;
+
+          .action-btn {
+            padding: 8px 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &.edit-btn {
+              background: var(--warning-color);
+              color: white;
+
+              &:hover {
+                background: #e0a800;
+                transform: scale(1.05);
+              }
+            }
+
+           
+
+          
+          }
+        }
+      }
+
+     
+    }
+
+    
+  }
+}
+
+
+
+
+  
+
+ 
+
