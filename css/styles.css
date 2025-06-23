@@ -394,7 +394,16 @@ body {
       }
     }
 
-    
+    .DeleteActions {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      list-style: none;
+      flex-wrap: wrap;
+
+   
+    }
   }
 }
 
