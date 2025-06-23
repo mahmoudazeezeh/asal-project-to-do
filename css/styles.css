@@ -624,7 +624,9 @@ body {
         background: #6c757d;
         color: white;
 
-       
+        &:hover {
+          background: #5a6268;
+        }
       }
     }
   }
