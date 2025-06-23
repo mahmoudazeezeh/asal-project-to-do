@@ -598,9 +598,26 @@ body {
         gap: 8px;
         font-size: 14px;
 
-       
+        &:hover {
+          transform: translateY(-2px);
+          box-shadow: var(--shadow);
+        }
       }
     }
   }
 }
 
+/* Rename modal */
+.renameTask {
+  .popUp {
+    .actions {
+      button:first-of-type {
+        background: var(--primary-color);
+        color: white;
+
+       
+
+      
+    }
+  }
+}
