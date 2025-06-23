@@ -180,7 +180,11 @@ body {
 .todoList {
   min-height: 60vh;
 
-
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
 
 
   
