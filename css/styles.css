@@ -197,4 +197,13 @@ body {
       }
     }
 
+    .pagination {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      list-style: none;
+      flex-wrap: wrap;
+
   
+    }
