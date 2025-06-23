@@ -8,7 +8,13 @@ const playSound = (soundId) => {
     })
   }
 }
-
+// Close alert function
+const closeAlert = (alertId) => {
+  const alertElement = document.getElementById(alertId)
+  if (alertElement) {
+    alertElement.classList.remove("show")
+  }
+}
 
 
 
