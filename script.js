@@ -15,6 +15,19 @@ const closeAlert = (alertId) => {
     alertElement.classList.remove("show")
   }
 }
+// Show alert function
+const showAlert = (message, type = "success") => {
+  const alertElement = document.getElementById(type === "success" ? "successAlert" : "errorAlert")
+  const messageElement = alertElement.querySelector(".alert-message")
+
+  messageElement.textContent = message
+  alertElement.classList.add("show")
+
+  // Auto hide alert after 5 seconds
+  setTimeout(() => {
+    alertElement.classList.remove("show")
+  }, 5000)
+}
 
 
 
