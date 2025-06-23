@@ -143,7 +143,26 @@ body {
         }
       }
 
-     
+      button {
+        padding: 15px 30px;
+        background: var(--success-color);
+        color: white;
+        border: none;
+        border-radius: var(--border-radius);
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+        transition: var(--transition);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+       
+
+
+       
+      }
     }
   }
 }
