@@ -28,6 +28,14 @@ const showAlert = (message, type = "success") => {
     alertElement.classList.remove("show")
   }, 5000)
 }
+// Local storage handler
+const setLocalStorage = (key, value) => {
+  if (value) {
+    localStorage.setItem(key, JSON.stringify(value))
+  } else {
+    return JSON.parse(localStorage.getItem(key)) || []
+  }
+}
 
 
 
