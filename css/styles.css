@@ -402,7 +402,23 @@ body {
       list-style: none;
       flex-wrap: wrap;
 
-   
+      li {
+        background: var(--red-color);
+        padding: 12px 25px;
+        color: white;
+        border-radius: 25px;
+        transition: var(--transition);
+        cursor: pointer;
+        font-weight: bold;
+        box-shadow: var(--shadow);
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+      
+
+       
+      }
     }
   }
 }
