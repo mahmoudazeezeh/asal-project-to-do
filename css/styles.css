@@ -5,5 +5,19 @@
   box-sizing: border-box;
 }
 
-
+:root {
+  --primary-color: #0a97bb;
+  --bold-primary-color: #216f83;
+  --red-color: #ef3a3a;
+  --tin-red-color: #f36565e2;
+  --success-color: #28a745;
+  --warning-color: #ffc107;
+  --dark-color: #343a40;
+  --light-color: #f8f9fa;
+  --border-color: #dee2e6;
+  --shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  --shadow-hover: 0 4px 20px rgba(0, 0, 0, 0.15);
+  --border-radius: 8px;
+  --transition: all 0.3s ease;
+}
 
