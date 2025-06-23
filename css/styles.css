@@ -376,7 +376,11 @@ body {
         color: #6c757d;
         text-align: center;
 
-       
+        i {
+          font-size: 4rem;
+          margin-bottom: 20px;
+          opacity: 0.5;
+        }
 
        
 
