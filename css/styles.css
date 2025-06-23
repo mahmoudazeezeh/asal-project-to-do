@@ -78,7 +78,18 @@ body {
       flex-direction: column;
       gap: 20px;
 
-    
+      .inputDiv {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        border-radius: var(--border-radius);
+        overflow: hidden;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+      
+
+     
+      }
 
     
 
