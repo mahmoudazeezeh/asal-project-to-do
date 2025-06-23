@@ -223,7 +223,12 @@ body {
           box-shadow: var(--shadow-hover);
         }
 
-      
+        &.active {
+          background: var(--primary-color);
+          color: white;
+          transform: translateY(-3px);
+          box-shadow: var(--shadow-hover);
+        }
 
        
       }
