@@ -460,7 +460,21 @@ body {
     background: linear-gradient(135deg, var(--red-color), #dc3545);
   }
 
-  
+  .alert-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+
+    i:first-child {
+      font-size: 24px;
+    }
+
+    .alert-message {
+      flex: 1;
+      font-size: 16px;
+    }
+
     
   }
 }
