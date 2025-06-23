@@ -137,7 +137,10 @@ body {
         transform: translateY(-10px);
         transition: var(--transition);
 
-       
+        &.show {
+          opacity: 1;
+          transform: translateY(0);
+        }
       }
 
      
