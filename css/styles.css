@@ -360,7 +360,9 @@ body {
               }
             }
 
-          
+            i {
+              font-size: 14px;
+            }
           }
         }
       }
