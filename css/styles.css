@@ -176,6 +176,10 @@ body {
   }
 }
 
+/* Task list */
+.todoList {
+  min-height: 60vh;
+
 
 
 
