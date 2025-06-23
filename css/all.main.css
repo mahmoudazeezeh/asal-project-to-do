@@ -19,3 +19,6 @@
   content: "✅";
 }
 
+.fa-exclamation-triangle:before {
+  content: "⚠️";
+}
