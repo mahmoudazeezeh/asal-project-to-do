@@ -354,6 +354,10 @@ body {
               background: var(--red-color);
               color: white;
 
+              &:hover {
+                background: #dc3545;
+                transform: scale(1.05);
+              }
             }
 
           
