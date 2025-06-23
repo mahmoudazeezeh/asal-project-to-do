@@ -95,7 +95,9 @@ body {
           align-items: center;
           transition: var(--transition);
 
-        
+          &:hover {
+            background: var(--bold-primary-color);
+          }
 
          
         }
